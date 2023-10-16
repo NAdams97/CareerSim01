@@ -7,3 +7,4 @@ The portfolio page does not have any coding related project to be displayed and 
 A nav bar has been applied to each page by copy and pasting the code for it into the same place on each html file and using the same CSS classes to style it across all sheets.
 The background for each page has been set to antique white.
 The website has used horizontal rules to keep each subject visually organized as well as to separate the nav bar from the remainder of the site.
+# Career Sim02
