@@ -76,3 +76,8 @@ h1{
     justify-content: center;
     gap: 30pt;
 }
+@media screen and (max-width: 600px) {
+    .about-img{
+        width: 150px;
+    }
+}
