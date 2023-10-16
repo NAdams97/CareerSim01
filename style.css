@@ -39,19 +39,28 @@ h1{
 }
 #about-section1{
     display: grid;
-    grid-template-columns:  250px 350px;
+    grid-template-columns:  auto auto;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
+    gap: 30px;
 }
 #about-section2{
     display: grid;
-    grid-template-columns:  350px 185pt;
+    grid-template-columns:  auto auto;
+    max-width: 450pt;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 #about-section3{
     display: grid;
-    grid-template-columns:  250px 350px;
+    grid-template-columns:  auto auto;
+    max-width: 37.5pc;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     gap: 30pt;
-    overflow-wrap: normal;
 }
