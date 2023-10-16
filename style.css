@@ -17,10 +17,10 @@ main{
 .homebio{
     display: grid;
     grid-template-rows: auto;
+    box-sizing: border-box;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    box-sizing: border-box;
     padding: 1em;
     font-size: 18px;
 }
@@ -32,9 +32,14 @@ h3{
 }
 .form-item{
     display: grid;
-    grid-template-columns: 5em 20pc;
+    grid-template-columns: 5em 37pc;
     justify-content: center;
     padding: 0.4em;
+}
+@media screen and (max-width: 600px) {
+    .form-item{
+        grid-template-columns: 5em 20pc;
+    }
 }
 #submit-btn{
     display: grid;
@@ -70,4 +75,9 @@ h1{
     margin-right: auto;
     justify-content: center;
     gap: 30pt;
+}
+@media screen and (max-width: 600px) {
+    .about-img{
+        width: 150px;
+    }
 }
